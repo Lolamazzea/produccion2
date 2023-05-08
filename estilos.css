@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+ *{
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 33%;
+}
+
+.flex-item-center{
+    background-color: red;
+    padding: 10px;
+    flex: 33%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 33%;
+}
+.img{
+   width: 100px;
+   height: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100px;
+    align-self: auto;
+}
+.success:hover{
+  background-color: red;
+  color: black;
+}
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-center, .flex-item-left {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
