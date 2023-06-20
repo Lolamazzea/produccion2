@@ -6,12 +6,17 @@
  *{
   box-sizing: border-box;
  }
-/* style the navegation bar links */ 
+ /*style the navegation bar link*/
 .navbar a {
-  color: white;
-  padding: 14px 20px;
+  color: black;
+  padding: 20px;
   text-decoration: none;
   text-align: center;
+}
+/*change color on hover*/
+.navbar a:hover{
+  background-color: gray;
+  color: black;
 }
 
 .flex-container {
@@ -48,12 +53,12 @@
 
 .img{
    width: 100px;
-   height: auto;
-   text-align: center;
+   height: 50px;
+  text-emphasis: none;
 }
 
 .card1{
-  background-color:grey;
+  background-color: grey;
   padding: 20px;
   color: white;
 }
@@ -68,196 +73,168 @@
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card4{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card5{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card6{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card7{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card8{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card9{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card10{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card11{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card12{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card13{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card14{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card15{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card16{
   background-color:grey;
   padding: 20px;
   color:white;
-  text-align: center;
 }
 
 .card17{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card18{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card19{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card20{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card21{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card22{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card23{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card24{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card25{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card26{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card27{
   background-color:grey;
   padding: 20px;
   color: wheat;
-  text-align: center;
 }
 
 .card28{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card29{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 
 .card30{
   background-color:grey;
   padding: 20px;
   color: white;
-  text-align: center;
 }
 .footer{
     background-color: black;
